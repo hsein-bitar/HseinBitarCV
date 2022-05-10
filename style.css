@@ -20,7 +20,6 @@ body {
 }
 
 header {
-
     color: var(--color-one);
     background-color: var(--background);
     padding: 16px;
