@@ -1,3 +1,8 @@
+*,
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     margin: auto;
@@ -6,26 +11,31 @@ body {
 
 header {
     background-color: #e8e4d8;
-    padding: 20px;
+    padding: 16px;
+    height: 30vh;
 }
 
 .header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+
 }
 
-#profile {
-    float: right;
+
+.header .img {
+    border: 3px gray solid;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 15px;
+
 }
 
-.row {
+header center {
 
-    display: flex;
-    flex-direction: row;
-}
-
-.row>* {
-    margin: 10px;
-    background-color: #3897f0;
-    border: 1px solid red;
+    font-size: 13px;
 }
