@@ -1,18 +1,31 @@
+:root {
+    --color-one: #4f5778;
+    --color-two: #c8e200;
+    --background: #d7d7d7;
+    --white: #ffffff;
+}
+
 *,
 html {
     box-sizing: border-box;
+
 }
 
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     margin: auto;
     width: 80vw;
+    max-width: 800px;
+    overflow: scroll;
 }
 
 header {
-    background-color: #e8e4d8;
+
+    color: var(--color-one);
+    background-color: var(--background);
     padding: 16px;
-    height: 30vh;
+    height: 35vh;
+    min-height: 250px;
 }
 
 .header {
@@ -25,9 +38,9 @@ header {
 
 
 .header .img {
-    border: 3px gray solid;
-    width: 120px;
-    height: 120px;
+    border: 3px var(--color-one) solid;
+    width: 115px;
+    height: 115px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -38,4 +51,18 @@ header {
 header center {
 
     font-size: 13px;
+}
+
+.justify {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+h3 {
+    color: var(--color-two);
 }
