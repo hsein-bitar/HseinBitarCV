@@ -80,13 +80,16 @@ header center {
     text-align-last: justify;
 }
 
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 #links {
     width: 100%;
     overflow: scroll;
     margin: auto;
-
     display: flex;
-
     justify-content: space-between;
     list-style-type: none;
 }
