@@ -1,7 +1,7 @@
 :root {
     --color-one: #2d334a;
     --color-two: #8e3400;
-    --background: #d7d7d7;
+    --background: #ececec;
     --white: #ffffff;
 }
 
@@ -92,7 +92,7 @@ header center {
 }
 
 #links {
-    width: 100%;
+
     overflow: scroll;
     margin: auto;
     display: flex;
@@ -102,6 +102,13 @@ header center {
 
 #links * {
     margin: 10px;
+
+}
+
+#links *:hover {
+    color: var(--color-two);
+    background-color: var(--background);
+
 }
 
 h3 {
