@@ -46,7 +46,6 @@ header {
     overflow: hidden;
     border-radius: 50%;
     margin-right: 15px;
-
 }
 
 .name {
@@ -78,9 +77,6 @@ header center {
     list-style-type: none;
 }
 
-/* #links * {
-    padding: 10px;
-} */
 
 h3 {
     color: var(--color-two);
