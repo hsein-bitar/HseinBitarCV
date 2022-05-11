@@ -119,6 +119,14 @@ h3 {
     text-decoration: wavy;
 }
 
+.list-group-item:hover {
+    background-color: var(--background);
+}
+
+.table {
+    border: none;
+}
+
 @media only screen and (min-width: 768px) {
     .row {
         display: flex;
