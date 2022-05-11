@@ -1,6 +1,6 @@
 :root {
-    --color-one: #4f5778;
-    --color-two: #c8e200;
+    --color-one: #2d334a;
+    --color-two: #8e3400;
     --background: #d7d7d7;
     --white: #ffffff;
 }
@@ -11,10 +11,19 @@ html {
 
 }
 
+#alert {
+    margin-top: 10px;
+    color: var(--color-two);
+}
+
+i {
+    color: var(--color-two);
+}
+
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     margin: auto;
-    width: 80vw;
+    width: 95vw;
     max-width: 800px;
     overflow: scroll;
 }
@@ -23,8 +32,7 @@ header {
     color: var(--color-one);
     background-color: var(--background);
     padding: 16px;
-
-    height: 35vh;
+    height: 28vh;
     min-height: 250px;
 }
 
@@ -45,16 +53,21 @@ header {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .name {
-    margin-top: 40px;
+    margin-top: 25px;
+}
+
+.name p {
+    max-width: 90%;
 }
 
 header center {
 
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .justify {
@@ -69,6 +82,7 @@ header center {
 
 #links {
     width: 100%;
+    overflow: scroll;
     margin: auto;
 
     display: flex;
@@ -77,6 +91,9 @@ header center {
     list-style-type: none;
 }
 
+#links * {
+    margin: 10px;
+}
 
 h3 {
     color: var(--color-two);
