@@ -23,11 +23,13 @@ header {
     color: var(--color-one);
     background-color: var(--background);
     padding: 16px;
+
     height: 35vh;
     min-height: 250px;
 }
 
 .header {
+    padding-top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,8 +45,12 @@ header {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    margin: 15px;
+    margin-right: 15px;
 
+}
+
+.name {
+    margin-top: 40px;
 }
 
 header center {
