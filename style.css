@@ -110,18 +110,18 @@ h3 {
     text-decoration: wavy;
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
 
-.row {
-    overflow: scroll;
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    border: 5px red solid;
-}
+    .row *,
+    instagram-media {
+        width: 380px !important;
+    }
 
-.row *,
-instagram-media {
-    max-width: 300px;
-    border: 5px red solid;
+
 }
